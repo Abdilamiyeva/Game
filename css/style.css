@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -20,6 +20,218 @@
 /* <!-- Top Piks start --> */
 /* <!-- Top Piks end --> */
 /* <!-- Top Free Games  start--> */
+.free__games {
+    padding-top: 140px;
+ 
+}
+
+.free__games__wrapper {
+    max-width: 1583px;
+    margin: 0 auto;
+}
+
+.free__games__wrapper .text__boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+
+.free__games__wrapper .text__boxs .text__box__1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: rgba(235, 235, 235, 0.9);
+}
+
+.free__games__wrapper .text__boxs .text__box__2 img {
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.free__games__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 110px;
+    padding-bottom: 371px;
+}
+
+.game__card {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+
+.card__img__1 img {
+    width: 120px;
+    height: 160px;
+}
+
+.img__1 {
+    background-image: url(../img/free__car__img.svg);
+    background-repeat: no-repeat;
+}
+
+.img__2 {
+    background-image: url(../img/valorit__img__2.svg);
+    background-repeat: no-repeat;
+}
+
+.img__3 {
+    background-image: url(../img/godwar__img__3.svg);
+    background-repeat: no-repeat;
+}
+
+.img__4 {
+    background-image: url(../img/Reg__img__4.svg);
+    background-repeat: no-repeat;
+}
+
+.img__5 {
+    background-image: url(../img/guil__img__5.svg);
+    background-repeat: no-repeat;
+}
+
+.img__6 {
+    background-image: url(../img/euro__img__6.svg);
+    background-repeat: no-repeat;
+}
+
+.img__7 {
+    background-image: url(../img/roc__img__7.svg);
+    background-repeat: no-repeat;
+}
+
+.img__8 {
+    background-image: url(../img/cyber__img__8.svg);
+    background-repeat: no-repeat;
+}
+
+.img__9 {
+    background-image: url(../img/grand__img__9.svg);
+    background-repeat: no-repeat;
+}
+
+.cards__text h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.cards__text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A4A4A4;
+    margin-top: 15px;
+}
+
+.cards__text p span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.cards__text ul {
+    display: flex;
+    align-items: center;
+    gap: 4.6px;
+    margin-top: 15px;
+}
+
+.cards__text ul li {
+    cursor: pointer;
+}
+
+
+.free__email__box {
+    display: flex;
+    align-items: center;
+    padding: 46px 73px 13px;
+    gap: 68px;
+}
+
+.free__email__text h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #A9A9A9;
+}
+
+.free__email__text h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A9A9A9;
+}
+
+.free__email form {
+    position: relative;
+    width: 794px;
+    height: 52px;
+    background-color: bisque;
+    background: #1C2326;
+    border: 1px solid #000000;
+    border-radius: 26px;
+}
+
+.free__email input {
+    position: absolute;
+    margin-left: 2px;
+    padding: 19px 23px 9px;
+    width: 90%;
+    background: #1C2326;
+    border-radius: 26px;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.free__email input:focus {
+    outline: none;
+}
+
+.free__email .btn {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 52px;
+    border-radius: 50%;
+    background: #9A9A9A;
+}
+
+.free__email input::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9A9A9A;
+}
+
 /* <!-- Top Free Games  end--> */
 /* <!-- footer start --> */
 /* <!-- footer end --> */
