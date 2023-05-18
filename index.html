@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <title>Game site</title>
     <!-- font awesome  link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome, turli iconlar o'rnatish uchun -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- fonts  link -->
     <link rel="stylesheet" href="./fonts/stylesheet.css">
     <!-- css link -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
@@ -33,9 +38,9 @@
                     </ul>
                 </nav>
                 <div class="header__button">
-                    <button class="header__btn1"><img src="./img/iconbutton_1.svg" alt="iconbutton_1.svg"></button>
-                    <button class="header__btn2"><img src="./img/iconbutton_2.svg" alt="iconbutton_2.svg"></button>
-                    <button class="header__btn3"><img src="./img/iconbutton_3.svg" alt="iconbutton_3.svg"></button>
+                    <button class="header__btn1">Explore<i class="fa-regular fa-compass"></i></button>
+                    <button class="header__btn2">Cart<img src="./img/icons.svg" alt=""></button>
+                    <button class="header__btn3">Create<i class="fa-solid fa-plus"></i></button>
                 </div>
                 <div class="header_user">
                         <a href="#"><img src="./img/user_icon.svg" alt="user_icon.svg"></a>
@@ -45,68 +50,187 @@
     </header>
     <!-- header end -->
     <!-- home start -->
+    <section class="home">
+        <div class="home__wrapper">
+            <div class="home__in">
+                <div class="home__information">
+                    <h1>Create Your new <span>Legacy</span></h1>
+                    <p>Play with over 10 million gamers in leagues, tournaments and ladders</p>
+                    <div class="home_buttons">
+                        <button class="home_btn1">LOGIN</button>
+                        <button class="home_btn2">SIGNUP</button>
+                    </div>
+                </div>
+                <div class="home_img">
+                    <img src="./img/home_img.png" alt="home_img.png">
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- home end -->
     <!-- live stream start -->
     <!-- live stream end -->
     <!-- feature games start -->
     <!-- feature games end -->
     <!-- Top evens start  -->
-     
-     <div class="top__evens">
-
-        <div class="top__evens__container">
-
-            <div class="top__evens__text__bag">
-                <p>Top Events</p>
-            </div>
-
-            <div class="top__evens__table">
-
-                <div class="top__evens__table__photo">
-                    <img src="img/top_evens__photo.svg" alt="il">
-                </div>
-
-                <div class="top__evens__table__text">
-
-                     <div class="top__evens__table__text__bag">
-                        <p>ROCKET LEAGUE</p>
-                     </div>
-
-                     <div class="top__evens__table__text_small">
-                        <p>The Rocket League Championship Series (RLCS) 2021-22 season is here and bigger than ever. The world's premier professional Rocket League competition is back with $6,000,000 in prizing up for grabs, an open circuit-based format, more regions, and LANs making their return, the league is set to make another leap forward</p>
-                     </div>
-
-                     <div class="top__evens__table_online">
-                        <div class="top__online">
-                            <p class="p1">Online</p>
-
-                            <p class="p2">$6,000,000<span>in prizes</span></p>
-                        </div>
-
-                        <div class="top__public">
-                          <div class="top__public__t">
-                            <div class="top__public__img">
-                                <img src="img/top_evens__icon.svg" alt="il">
-                               </div>
-                               <div class="top__public__text"><span>
-                                Public</span>
-                               </div>
-                          </div>
-
-                            <p class="partins">1201<span id="span1">participants</span> </p>
-                        </div>
-                     </div>
-
-                     <div class="top__evens__button">
-                       <button> <span id="button_top">Register</span></button>
-                     </div>
-                </div>
-            </div>
-        </div>
-     </div>
-
     <!-- Top evens end -->
+
     <!-- Top Piks start -->
+     <section class="swipper__wrap">
+        <section class="swipper__in">
+            <div class="swipper__title">
+                <h1>Top Picks</h1>
+                <p>Here are the top picks of the month which gathered the  largest number of attention from the users. </p>
+            </div>
+            <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+            slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+            coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./img/Rectangle 78sword.png" alt="Rectangle 78sword.png">
+                <div class="swiper_text">
+                    <h1>Sword Warrior</h1>
+                    <p>Sword Warrior is free action RPG game. In Sword Warrior, with your blade you will become...More</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </swiper-slide>
+         </swiper-container>
+         </section>
+     </section>
+    
+    
+
     <!-- Top Piks end -->
 
     <!-- Top Free Games  start-->
@@ -182,5 +306,6 @@
     <!-- footer end -->
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </body>
 </html>
