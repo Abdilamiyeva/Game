@@ -8,21 +8,358 @@
 
 
 /* <!-- header start --> */
+.header__wrapper {
+    max-width: 1728px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 20px 23px;
+}
+
+.header__in {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    padding-left: 60px;
+}
+
+.nav__link {
+    display: flex;
+    gap: 74px;
+    align-items: center;
+}
+
+.nav__link .nav__item a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(215, 215, 215, 0.9);
+    border-bottom: 4px solid transparent;
+    padding-bottom: 5px;
+    transition: all 0.6s ease;
+}
+
+.nav__link .nav__item a:hover {
+
+    color: rgba(255, 255, 255, 0.9);
+    border-bottom: 4px solid #E8E8E8;
+}
+
+.header__button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 135px;
+}
+
+.header__button button {
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 138.69%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.header__button button i {
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.header__button button img {
+    margin-left: 40px;
+}
+
+.header__btn2 {
+
+    background: linear-gradient(293.26deg, rgba(187, 61, 6, 0.95) 0%, rgba(211, 164, 2, 0.95) 86.22%);
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+
+.header__btn2:hover {
+    background: linear-gradient(293.26deg, rgba(211, 164, 2, 0.95), rgba(187, 61, 6, 0.95));
+}
+
+.header__btn1 {
+    background: linear-gradient(292.86deg, rgba(143, 0, 255, 0.95) 0%, rgba(0, 163, 255, 0.95) 87.68%);
+    border-radius: 6px;
+    transition: all 0.6s ease;
+}
+
+.header__btn1:hover {
+    background: linear-gradient(292.86deg, rgba(0, 163, 255, 0.95), rgba(143, 0, 255, 0.95));
+}
+
+.header__btn3 {
+    background: linear-gradient(292.86deg, #2D53D9 0%, #46D84C 87.68%);
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+
+.header__btn3:hover {
+    background: linear-gradient(292.86deg, #46D84C, #2D53D9);
+}
+
 /* <!-- header end --> */
 /* <!-- home start --> */
+.home__wrapper {
+    max-width: 1728px;
+    margin: 0 auto;
+}
+
+.home__in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__information h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 156px;
+    color: #BDBDBD;
+    max-width: 850px;
+
+}
+
+.home__information h1 span {
+    color: #D2A401;
+}
+
+.home__information p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 72px;
+    max-width: 920px;
+    color: #BDBDBD;
+    margin-bottom: 86px;
+}
+
 /* <!-- home end --> */
 /* <!-- live stream start --> */
 /* <!-- live stream end --> */
 /* <!-- feature games start --> */
 /* <!-- feature games end --> */
 /* <!-- Top evens start  --> */
+
+.top__evens {
+    padding: 0.1px;
+    width: 1728px;
+    height: 1189px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0074) 0%, rgba(0, 0, 0, 0.2146) 100%);
+
+}
+
+.top__evens__container {
+    width: 1592px;
+    margin: 0 67px 0 75px;
+}
+
+.top__evens__text__bag p {
+    margin-top: 55px;
+    margin-bottom: 106px;
+    width: 271.17px;
+    height: 59px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: rgba(237, 237, 237, 0.9);
+
+}
+
+.top__evens__table {
+    display: flex;
+}
+
+.top__evens__table__photo {
+    margin-right: 90px;
+}
+
+.top__evens__table__text__bag p {
+    width: 328.57px;
+    height: 47.12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.top__evens__table__text_small p {
+    width: 603.4px;
+    height: 270.68px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #B5B5B5;
+    margin-bottom: 42px;
+
+}
+
+.top__evens__table_online {
+    display: flex;
+}
+
+.top__evens__table_online .top__online {
+    text-align: center;
+
+}
+
+.top__evens__table_online .top__online .p1 {
+    margin-left: 40px;
+    margin-right: 157px;
+    width: 57.86px;
+    height: 25.06px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFF9F9;
+    margin-bottom: 33px;
+}
+
+
+.top__evens__table_online .top__online .p2 {
+    width: 194px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFCD1A;
+
+}
+
+.top__evens__table_online .top__online .p2 span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFF9F9;
+}
+
+.top__evens__table_online .top__public span {
+    margin-left: 14px;
+    width: 57.86px;
+    height: 25.06px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFF9F9;
+
+}
+
+.top__evens__table_online .top__public .partins span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFF9F9;
+}
+
+.top__public__t {
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.top__evens__table_online .top__public p {
+    width: 145.68px;
+    height: 24.06px;
+    left: 1236.77px;
+    top: 449.12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #93CBFF;
+
+}
+
+
+.top__evens__button button {
+    margin-top: 109px;
+    width: 372.99px;
+    height: 80.18px;
+    background: linear-gradient(292.86deg, #2D53D9 0%, #46D84C 87.68%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__evens__button button #button_top {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 138.69%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 /* <!-- Top evens end --> */
 /* <!-- Top Piks start --> */
 /* <!-- Top Piks end --> */
 /* <!-- Top Free Games  start--> */
 .free__games {
     padding-top: 140px;
- 
+
 }
 
 .free__games__wrapper {
