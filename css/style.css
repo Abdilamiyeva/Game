@@ -68,6 +68,195 @@
 /* <!-- feature games start --> */
 /* <!-- feature games end --> */
 /* <!-- Top evens start  --> */
+
+.top__evens{
+    padding: 0.1px;
+    width: 1728px;
+    height: 1189px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0074) 0%, rgba(0, 0, 0, 0.2146) 100%);
+    
+}
+
+.top__evens__container{
+    width: 1592px;
+    margin: 0 67px 0 75px;
+}
+
+.top__evens__text__bag p{
+    margin-top: 55px;
+    margin-bottom: 106px;
+    width: 271.17px;
+    height: 59px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: rgba(237, 237, 237, 0.9);
+    
+}
+
+.top__evens__table{
+    display: flex;
+}
+
+.top__evens__table__photo{
+    margin-right: 90px;
+}
+
+.top__evens__table__text__bag p{
+    width: 328.57px;
+    height: 47.12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF; 
+    margin-bottom: 30px;
+}
+
+.top__evens__table__text_small p{
+    width: 603.4px;
+    height: 270.68px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #B5B5B5;
+    margin-bottom: 42px;
+    
+}
+
+.top__evens__table_online{
+    display: flex;
+}
+
+.top__evens__table_online .top__online{
+    text-align: center;
+   
+}
+
+.top__evens__table_online .top__online .p1{
+    margin-left: 40px;
+    margin-right: 157px;
+    width: 57.86px;
+    height: 25.06px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFF9F9; 
+    margin-bottom: 33px;   
+}
+
+
+.top__evens__table_online .top__online .p2{
+    width: 194px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFCD1A;
+    
+}
+
+.top__evens__table_online .top__online .p2 span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFF9F9;   
+}
+
+.top__evens__table_online .top__public span{
+    margin-left: 14px;
+    width: 57.86px;
+    height: 25.06px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFF9F9;
+    
+}
+
+.top__evens__table_online .top__public .partins span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFF9F9;   
+}
+
+.top__public__t{
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.top__evens__table_online .top__public p{
+    width: 145.68px;
+    height: 24.06px;
+    left: 1236.77px;
+    top: 449.12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #93CBFF;
+    
+}
+
+
+.top__evens__button button{
+    margin-top:109px ;
+    width: 372.99px;
+    height: 80.18px;
+    background: linear-gradient(292.86deg, #2D53D9 0%, #46D84C 87.68%);
+    border-radius: 15px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__evens__button button #button_top{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 138.69%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
 /* <!-- Top evens end --> */
 /* <!-- Top Piks start --> */
 /* <!-- Top Piks end --> */
