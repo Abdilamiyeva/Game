@@ -23,6 +23,15 @@ body {
 }
 
 
+.body__container{
+    background-image: url(../img/orqa_fon_game.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
 /* <!-- header start --> */
 .header__wrapper{
     max-width: 1728px;
@@ -211,6 +220,7 @@ body {
 /* <!-- Top evens start  --> */
 
 .top__evens{
+    margin: 0 auto;
     padding: 0.1px;
     width: 1728px;
     height: 1189px;
@@ -383,6 +393,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    outline: none;
+    transition: 0.7;
+}
+
+.top__evens__button button:active{
+    transform: scale(0.98);
+  
 }
 
 .top__evens__button button #button_top{
@@ -541,5 +559,163 @@ swiper-slide img {
 /* <!-- Top Free Games  start--> */
 /* <!-- Top Free Games  end--> */
 /* <!-- footer start --> */
+
+footer{
+    width: 1728px;
+    margin: 0 auto;
+    height: 806px;
+    
+    background: #131A25;
+    
+}
+
+.footer__container{
+    width: 1586px;
+    margin: 0 auto;
+    padding-top: 1px;
+    margin: 0 164px 0 80px;
+    display: flex;
+    height: 806px;
+}
+
+.footer__Games .Games{
+    margin: 193px 200px 21px 0;
+}
+
+.footer__Games p{
+    width: 382px;
+    height: 96px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #9A9A9A;    
+}
+
+.footerr_games__buttons{
+    display: flex;
+}
+
+.footerr_games__button1 button{
+    width: 172px;
+    height: 52px;
+    background: #CCCCCC;
+    border-radius: 6px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.footerr_games__button1 button span{
+    margin-left: 17px;
+    width: 86px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #484848;    
+}
+
+.footerr__games__button2 button{
+    margin-left: 13px;
+    width: 172px;
+    height: 52px;
+    background: #CCCCCC;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footerr__games__button2 button span{
+    margin-left: 16px;
+    width: 94px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #484848;    
+}
+
+.footer_c_h_c{
+    display: flex;
+    margin-top: 193px;
+}
+
+.footer_c_h_c span{
+    margin-right: 50px;
+    width: 232.18px;
+    height: 41.81px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #838383; 
+    margin-bottom: 18px;   
+}
+
+.footer_c_h_c p{
+
+   margin-bottom:7px ; 
+   height: 41.81px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   display: flex;
+   align-items: center;
+   color: #838383;   
+}
+
+.footer_c_h_c a{
+    text-decoration: none;
+    color: #838383; 
+}
+
+.footer__icons img{
+    margin-top: 10px;
+    margin-right: 24px;
+}
+
+.finishid{
+    padding: 0.2px;
+    height: 106px;
+    background: #131A25;
+    align-items: center;
+    width: 1728px;
+    margin: 0 auto;
+}
+
+.finishid .top__evens__container{
+    display: flex;
+    
+}
+
+.finishid p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #8C8C8C; 
+    margin-top: 40px;   
+}
+
+.finishid .p1{
+    margin-right: 808px;
+}
+/* <!-- footer end --> */
 /* <!-- footer end --> */
 
