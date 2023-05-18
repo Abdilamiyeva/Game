@@ -240,6 +240,7 @@ body {
     height: 590px;
     background-image: url(../img/Streambckimg);
     padding-left: 93px;
+    margin: 0 auto;
     overflow: hidden;
 }
 .Sreams .card1 .card1name{
