@@ -1,9 +1,35 @@
 * {
     padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
+    border: none;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.body__container{
+    background-image: url(../img/orqa_fon_game.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
 
 
@@ -11,19 +37,21 @@
 .header__wrapper {
     max-width: 1728px;
     margin: 0 auto;
-    background-color: black;
-    padding: 20px 23px;
+    background-color:black;
+    padding: 20px 0;
 }
 
 .header__in {
     margin: 0 auto;
+    max-width: 1586px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.header__logo {
-    padding-left: 60px;
+.header__logo{
+    margin: 0;
+    /* padding-left: 60px; */
+    /* margin-right: 100px; */
 }
 
 .nav__link {
@@ -117,6 +145,9 @@
 .header__btn3:hover {
     background: linear-gradient(292.86deg, #46D84C, #2D53D9);
 }
+.header_user{
+    /* margin-left: 111px; */
+}
 
 /* <!-- header end --> */
 /* <!-- home start --> */
@@ -127,6 +158,8 @@
 
 .home__in {
     display: flex;
+    margin: 0 auto;
+    max-width: 1586px;
     justify-content: space-between;
     align-items: center;
 }
@@ -135,11 +168,12 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 128px;
+    font-size: 110px;
     line-height: 156px;
     color: #BDBDBD;
     max-width: 850px;
 
+   
 }
 
 .home__information h1 span {
@@ -158,6 +192,46 @@
     margin-bottom: 86px;
 }
 
+.home_buttons {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+.home_btn1{
+    background: linear-gradient(292.86deg, rgba(143, 0, 255, 0.95) 0%, rgba(0, 163, 255, 0.95) 87.68%);
+    border-radius: 6px;
+    padding: 15px 37px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 138.69%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.home_btn2{
+    background: linear-gradient(293.26deg, rgba(187, 61, 6, 0.95) 0%, rgba(211, 164, 2, 0.95) 86.22%);
+    border-radius: 6px;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 138.69%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
 /* <!-- home end --> */
 /* <!-- live stream start --> */
 /* <!-- live stream end --> */
@@ -165,7 +239,9 @@
 /* <!-- feature games end --> */
 /* <!-- Top evens start  --> */
 
-.top__evens {
+
+.top__evens{
+    margin: 0 auto;
     padding: 0.1px;
     width: 1728px;
     height: 1189px;
@@ -338,6 +414,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    outline: none;
+    transition: 0.7;
+}
+
+.top__evens__button button:active{
+    transform: scale(0.98);
+  
 }
 
 .top__evens__button button #button_top {
@@ -355,6 +439,143 @@
 
 /* <!-- Top evens end --> */
 /* <!-- Top Piks start --> */
+.swipper__wrap{
+    background: linear-gradient(blue,yellow,blue);
+    padding-top: 100px;
+    padding-bottom: 300px;
+   
+}
+.swipper__in{
+    max-width: 1675px;
+    height: 648px;
+    margin: 0 auto;
+}
+.swipper__title h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    color: rgba(235, 235, 235, 0.9);
+    margin-bottom: 45px;
+}
+.swipper__title p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 160%;
+    color: #CDCDCD;
+}
+swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 690px;
+  position: relative;
+}
+.swiper_text{
+    width: 600px;
+    left: 40px;
+    position: absolute;
+    bottom: 60px;
+
+}
+.swiper_text h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.swiper_text p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B5B5B5;
+    margin: 17px 0;
+}
+.swiper_text i{
+    color: #FFC700;
+    border-radius: 1px;
+}
+swiper-slide img {
+  display: block;
+  width: 100%;
+}
+/* Top Piks media start */
+@media  (max-width: 428px){
+    .swipper__wrap{
+        padding-top: 50px;
+        padding-bottom: 150px;
+       
+    }
+    .swipper__in{
+        max-width: 425px;
+        margin: 0 auto;
+    }
+    .swipper__title h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 45px;
+        color: rgba(235, 235, 235, 0.9);
+        margin-bottom: 25px;
+    }
+    .swipper__title p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 160%;
+        color: #CDCDCD;
+    }
+    swiper-container {
+      width: 100%;
+      padding: 24px 0;
+    }
+    
+    swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 420px;
+      position: relative;
+    }
+    .swiper_text{
+        width: 280px;
+        left: 40px;
+        position: absolute;
+        bottom: 30px;
+    
+    }
+    .swiper_text h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 37px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .swiper_text p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #B5B5B5;
+        margin: 10px 0;
+    }
+}
+/* Top Piks media end */
 /* <!-- Top Piks end --> */
 /* <!-- Top Free Games  start--> */
 .free__games {
@@ -571,4 +792,163 @@
 
 /* <!-- Top Free Games  end--> */
 /* <!-- footer start --> */
+
+footer{
+    width: 1728px;
+    margin: 0 auto;
+    height: 806px;
+    
+    background: #131A25;
+    
+}
+
+.footer__container{
+    width: 1586px;
+    margin: 0 auto;
+    padding-top: 1px;
+    margin: 0 164px 0 80px;
+    display: flex;
+    height: 806px;
+}
+
+.footer__Games .Games{
+    margin: 193px 200px 21px 0;
+}
+
+.footer__Games p{
+    width: 382px;
+    height: 96px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #9A9A9A;    
+}
+
+.footerr_games__buttons{
+    display: flex;
+}
+
+.footerr_games__button1 button{
+    width: 172px;
+    height: 52px;
+    background: #CCCCCC;
+    border-radius: 6px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.footerr_games__button1 button span{
+    margin-left: 17px;
+    width: 86px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #484848;    
+}
+
+.footerr__games__button2 button{
+    margin-left: 13px;
+    width: 172px;
+    height: 52px;
+    background: #CCCCCC;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footerr__games__button2 button span{
+    margin-left: 16px;
+    width: 94px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #484848;    
+}
+
+.footer_c_h_c{
+    display: flex;
+    margin-top: 193px;
+}
+
+.footer_c_h_c span{
+    margin-right: 50px;
+    width: 232.18px;
+    height: 41.81px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #838383; 
+    margin-bottom: 18px;   
+}
+
+.footer_c_h_c p{
+
+   margin-bottom:7px ; 
+   height: 41.81px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   display: flex;
+   align-items: center;
+   color: #838383;   
+}
+
+.footer_c_h_c a{
+    text-decoration: none;
+    color: #838383; 
+}
+
+.footer__icons img{
+    margin-top: 10px;
+    margin-right: 24px;
+}
+
+.finishid{
+    padding: 0.2px;
+    height: 106px;
+    background: #131A25;
+    align-items: center;
+    width: 1728px;
+    margin: 0 auto;
+}
+
+.finishid .top__evens__container{
+    display: flex;
+    
+}
+
+.finishid p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #8C8C8C; 
+    margin-top: 40px;   
+}
+
+.finishid .p1{
+    margin-right: 808px;
+}
 /* <!-- footer end --> */
+/* <!-- footer end --> */
+
