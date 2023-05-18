@@ -1,9 +1,25 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
+    border: none;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -384,8 +400,146 @@
 
 /* <!-- Top evens end --> */
 /* <!-- Top Piks start --> */
+.swipper__wrap{
+    background: linear-gradient(blue,yellow,blue);
+    padding-top: 100px;
+    padding-bottom: 300px;
+   
+}
+.swipper__in{
+    max-width: 1675px;
+    height: 648px;
+    margin: 0 auto;
+}
+.swipper__title h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    color: rgba(235, 235, 235, 0.9);
+    margin-bottom: 45px;
+}
+.swipper__title p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 160%;
+    color: #CDCDCD;
+}
+swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 690px;
+  position: relative;
+}
+.swiper_text{
+    width: 600px;
+    left: 40px;
+    position: absolute;
+    bottom: 60px;
+
+}
+.swiper_text h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.swiper_text p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B5B5B5;
+    margin: 17px 0;
+}
+.swiper_text i{
+    color: #FFC700;
+    border-radius: 1px;
+}
+swiper-slide img {
+  display: block;
+  width: 100%;
+}
+/* Top Piks media start */
+@media  (max-width: 428px){
+    .swipper__wrap{
+        padding-top: 50px;
+        padding-bottom: 150px;
+       
+    }
+    .swipper__in{
+        max-width: 425px;
+        margin: 0 auto;
+    }
+    .swipper__title h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 45px;
+        color: rgba(235, 235, 235, 0.9);
+        margin-bottom: 25px;
+    }
+    .swipper__title p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 160%;
+        color: #CDCDCD;
+    }
+    swiper-container {
+      width: 100%;
+      padding: 24px 0;
+    }
+    
+    swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 420px;
+      position: relative;
+    }
+    .swiper_text{
+        width: 280px;
+        left: 40px;
+        position: absolute;
+        bottom: 30px;
+    
+    }
+    .swiper_text h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 37px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .swiper_text p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #B5B5B5;
+        margin: 10px 0;
+    }
+}
+/* Top Piks media end */
 /* <!-- Top Piks end --> */
 /* <!-- Top Free Games  start--> */
 /* <!-- Top Free Games  end--> */
 /* <!-- footer start --> */
 /* <!-- footer end --> */
+
