@@ -234,6 +234,72 @@ body {
 }
 /* <!-- home end --> */
 /* <!-- live stream start --> */
+
+.Sreams{
+    width: 1440px;
+    height: 590px;
+    background-image: url(../img/Streambckimg);
+    padding-left: 93px;
+    overflow: hidden;
+}
+.Sreams .card1 .card1name{
+
+    height: 160px;
+}
+.Sreams .name h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    color: rgba(237, 237, 237, 0.9);
+}
+
+.Sreams .card1 .card1name h1{
+    margin-top: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(235, 235, 235, 0.9);
+}
+.Sreams .card1 .card1name p{
+    width: 258.43px;
+    margin-top: 56.4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(160, 160, 160, 0.9);
+}
+
+.Sreams .card1 .stars img{
+    margin-top: 35px;
+}
+.Sreams .Animate{
+    margin-top: 93px;
+    display: flex;
+    gap: 30px;
+    animation: animate 10s linear infinite;
+
+}
+/* .Sreams .Animate */
+.Sreams .Animate .card1 .cardig img{
+    width: 279px;
+    height: 183px;
+    border-radius: 25px;
+}
+
+@keyframes animate{
+    100%{
+        transform: translate(-100%, 0);
+    }
+}
+
+
+
 /* <!-- live stream end --> */
 /* <!-- feature games start --> */
 /* <!-- feature games end --> */
