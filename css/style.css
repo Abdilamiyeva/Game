@@ -57,11 +57,89 @@
 .header__button button{
     border: none;
     outline: none;
-    background:none;
+    padding: 15px 15px;
+
     cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 138.69%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }
+.header__button button i{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    
+}
+.header__button button img{
+    margin-left: 40px;
+}
+.header__btn2{
+    
+    background: linear-gradient(293.26deg, rgba(187, 61, 6, 0.95) 0%, rgba(211, 164, 2, 0.95) 86.22%);
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+.header__btn2:hover{
+    background: linear-gradient(293.26deg,rgba(211, 164, 2, 0.95) , rgba(187, 61, 6, 0.95));
+}
+
+.header__btn1{
+    background: linear-gradient(292.86deg, rgba(143, 0, 255, 0.95) 0%, rgba(0, 163, 255, 0.95) 87.68%);
+    border-radius: 6px;
+    transition: all 0.6s ease;
+}
+.header__btn1:hover{
+    background: linear-gradient(292.86deg,rgba(0, 163, 255, 0.95), rgba(143, 0, 255, 0.95));
+}
+.header__btn3{
+    background: linear-gradient(292.86deg, #2D53D9 0%, #46D84C 87.68%);
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+.header__btn3:hover{
+    background: linear-gradient(292.86deg,#46D84C , #2D53D9 );
+}
+
 /* <!-- header end --> */
 /* <!-- home start --> */
+.home__wrapper{
+    max-width: 1728px;
+    margin: 0 auto;
+}
+.home__in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home__information h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 156px;
+    color: #BDBDBD;
+    max-width: 850px;
+   
+}
+.home__information h1 span{
+    color: #D2A401;
+}
+.home__information p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 72px;
+    max-width: 920px;
+    color: #BDBDBD;
+    margin-bottom: 86px;
+}
 /* <!-- home end --> */
 /* <!-- live stream start --> */
 /* <!-- live stream end --> */
