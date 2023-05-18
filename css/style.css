@@ -1,3 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
 /* <!-- header start --> */
 /* <!-- header end --> */
 /* <!-- home start --> */
@@ -9,6 +34,49 @@
 /* <!-- Top evens start  --> */
 /* <!-- Top evens end --> */
 /* <!-- Top Piks start --> */
+.swipper__wrap{
+    background: linear-gradient(black, red,yellow,red,black);
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+.swipper__in{
+    max-width: 1675px;
+    height: 648px;
+    border: 1px solid red;
+}
+.swipper__title h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    color: rgba(235, 235, 235, 0.9);
+}
+.swipper__title p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 160%;
+    color: #CDCDCD;
+}
+swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+}
 /* <!-- Top Piks end --> */
 /* <!-- Top Free Games  start--> */
 /* <!-- Top Free Games  end--> */
